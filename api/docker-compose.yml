@@ -1,0 +1,18 @@
+# Version of docker-compose
+version: '3'
+
+# Containers we are going to run
+services:
+  mosquitto:
+    image: eclipse-mosquitto
+    hostname: mosquitto
+    container_name: mosquitto
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+  redis:
+    image: redis
+    hostname: redis
+    container_name: redis
+    ports:
+      - "6380:6379"
