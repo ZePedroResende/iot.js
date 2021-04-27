@@ -19,7 +19,7 @@
     "mqtt": "^3.0.0",
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",
-    "redis": "^2.8.0"
+    "redis": "^3.1.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0"
